@@ -1,0 +1,550 @@
+* {
+    margin: 0;
+}
+
+/* .header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 1;
+} */
+
+.header__container {
+    height: 150px;
+}
+
+.header__inner {
+    display: flex;
+}
+
+.logo__img {
+    height: 150px;
+    margin-left: 250px;
+}
+
+.menu {
+    margin-left: 200px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__item {
+    padding: 65px 0 0 100px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: rgb(79, 9, 160);
+}
+
+.menu__link:hover {
+    color: rgb(246, 4, 97);
+    font-weight: 900;
+}
+
+.booking {
+    height: 1000px;
+    background: url('../images/promotions/big-bg.png') center center/cover no-repeat;
+    
+}
+
+.booking__inner {
+    height: 700px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: absolute;
+}
+
+.booking__title {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    left: 350px;
+    top: 250px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    font-weight:bolder;
+}
+
+.booking__descr {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    left: 350px;
+    top: 300px;
+}
+
+.booking__item {
+    font-family: 'Arimo', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 334px;
+    top: 340px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.locations__link {
+    color: #fff;
+}
+
+.booking__btn {
+    position: relative;
+    left: 350px;
+    top: 400px;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(224, 14, 172);
+}
+
+.booking__btn:hover {
+    color: blanchedalmond;
+    background: linear-gradient(100deg, rgb(219, 0, 128), rgb(181, 7, 197));
+}
+
+.information {
+    min-height: 1480px;
+  }
+  
+  .information__title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  
+  .information__subtitle-list {
+    margin-top: 50px;
+    width: 1000px;
+  }
+  
+  .information__subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  }
+  
+  .information__subtitle-items {
+    font-family: "Montserrat", sans-serif;
+    margin: 15px 0 0 40px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  
+  .information__descr {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 50px 0 0 50px;
+  }
+  
+  .information__hr {
+    margin-top: 30px;
+    opacity: 0.5;
+    border: 1px solid rgba(0, 102, 255, .2);
+  }
+  
+  .information__reviews {
+    margin: 100px 0 100px 0;
+    display: grid;
+    justify-content: center;
+  }
+  
+  .info__reviews-title {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  
+  .info__review {
+    width: 800px;
+    margin: 40px 0 0 0;
+  }
+  
+  .information__reviews-name {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  
+  .information__reviews-descr {
+    font-family: "Roboto", sans-serif;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  
+  .information__read-more {
+    color: black;
+    margin-top: 30px;
+    font-weight: 500;
+  }
+  
+  .information__read-more:hover {
+    color: rgb(4, 21, 117);
+  }
+  
+  .review__hr {
+    width: 800px;
+    margin-top: 30px;
+    opacity: 0.9;
+  }
+  
+  .search {
+    height: 600px;
+    background: url("../images/location/12.jpg") center center/cover no-repeat;
+  }
+  
+  .search__inner {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background: rgba(27, 16, 16, 0.6);
+  }
+  
+  .search__title {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 100px;
+  }
+  
+  .search__form {
+    margin-top: 30px;
+    height: 60px;
+    width: 500px;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: text;
+    padding-left: 10px;
+  }
+  
+  .search__form:hover {
+    border: 1px solid rgb(224, 14, 172);
+  }
+  
+  .search__btn {
+    color: #fff;
+    margin: 30px 0 0 0;
+    height: 60px;
+    width: 500px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(224, 14, 172);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .search__btn:hover {
+    color: blanchedalmond;
+    background: linear-gradient(100deg, rgb(219, 0, 128), rgb(181, 7, 197));
+  }
+
+  /* .search__link {
+    color: #fff;
+    text-decoration: none;
+    height: 60px;
+    width: 500px;
+  } */
+  
+  .promotions {
+    height: 650px;
+  }
+
+  .promotions__wrapper {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .promotions__title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+  }
+  
+  .promotions__promo {
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    height: 420px;
+    text-align: center;
+  }
+  
+  .promotions__promo:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  .promotions__promo-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .promotions__promo-text {
+    width: 250px;
+    padding: 4px 0 10px 0;
+    height: 115px;
+  }
+  
+  .promotions__promo-title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  
+  .promotions__promo-descr {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding: 0 10px;
+  }
+
+  .promotions__promo-read-more {
+    width: 110px;
+    color: black;
+    font-weight: 500;
+  }
+
+  .promotions__promo-read-more:hover {
+    color: rgb(4, 21, 117);
+  }
+  
+  .promotions__promo-more {
+    display: none;
+    width: 250px;
+    padding: 15px 15px;
+    background-color: #fff;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    text-align: center;
+  }
+  
+  .promotions__promo-more:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    background: rgba(27, 16, 16, 0.6);
+  }
+  
+  .promotions__promo-morer {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    padding-bottom: 10px;
+  }
+  
+  .back {
+    color: black;
+    font-size: 15px;
+  }
+  
+  .back:hover {
+    color: rgb(4, 21, 117);
+  }
+
+  .follow {
+      height: 300px;
+  }
+
+  .follow__forms {
+      display: grid;
+      justify-content: center;
+      margin-top: 10px;
+  }
+
+  .follow__forms-title {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-top: 50px;
+  }
+
+  .follow__form {
+    margin-top: 30px;
+    height: 60px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid rgb(79, 9, 160);
+    border-radius: 8px;
+    cursor: text;
+    padding-left: 10px;
+  }
+
+  .follow__form:hover {
+    border: 1px solid rgb(224, 14, 172);
+
+  }
+
+  .follow__form:focus {
+    border: 1px solid rgb(224, 14, 172);
+  }
+
+  .follow__btn {
+    color: #fff;
+    margin: 30px 0 0 0;
+    height: 60px;
+    width: 516px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(224, 14, 172);
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+
+  .follow__btn:hover {
+    color: blanchedalmond;
+    background: linear-gradient(100deg, rgb(219, 0, 128), rgb(181, 7, 197));
+  }
+
+  .footer {
+    height: 100px;
+    padding-top: 80px;
+    background-color: rgb(236, 236, 236);
+  }
+
+  .footer__inner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__phone {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .footer__phone:hover {
+    color: rgb(79, 9, 160);
+  }
+
+  .footer__nav-items {
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(79, 9, 160);
+  }
+
+  .footer__nav-items:hover {
+      color: rgb(224, 14, 172);
+  }
+
+  .footer__nav-items:active {
+    color: rgb(224, 14, 172);
+  }
+
+  .results {
+    min-height: 800px;
+    width: 100%;
+    background-color: #e6e6e1;
+  }
+
+  .results__inner {
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  .results__title {
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+    margin-left: 30px;
+  }
+
+  .results__subtitle {
+    margin: 10px 0 0 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.294);
+  }
+
+  .results__blocks {
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .results__items {
+    background-color: #fff;
+    min-height: 500px;
+    width: 400px;
+    margin: 30px 0 0 30px;
+  }
+
+  .results__img {
+    height: 300px;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+  }
+
+  .locations__region {
+    font-family: "Montserrat", sans-serif;
+    margin: 30px 0 0 30px;
+
+  }
+
+  .locations__name {
+    font-family: "Montserrat", sans-serif;
+    margin: 20px 0 0 30px;
+    font-size: 20px;
+    width: 840px;
+    line-height: 30px;
+  }
+
+  .locations__zone {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin: 15px 0 0 20px;
+    font-weight: 500;
+  }
+
+  .locations__capacity {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 0 20px;
+  }
+
+  .locations__date {
+    font-family: "Roboto", sans-serif;
+    margin: 10px 0 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .locations__price {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    margin: 60px 0 0 20px;
+    color: rgb(153, 153, 153);
+  }
+
